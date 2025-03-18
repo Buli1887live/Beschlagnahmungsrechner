@@ -46,7 +46,7 @@
         }
 
         async function sendToGoogleSheets(text) {
-            const response = await fetch("https://script.google.com/macros/s/AKfycbwwUOtb25EspgBgTTMqb9PKoWe4N5o3ZZMZPIo2yZ6jmEMbYToO_lYNzTqs8mPpuXOV/exec", {
+            const response = await fetch("https://script.google.com/macros/s/AKfycbzYK-rOF5tmcoIM3THQxMueR_RY3ZJPegGSluf3VygU1WbAK549giwDbSZ40AAs1CRa/exec", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ extractedText: text })
